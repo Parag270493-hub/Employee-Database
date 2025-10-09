@@ -2,3 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply bg-gradient-to-br from-blue-200 via-indigo-200 to-purple-300 min-h-screen font-sans;
+}
